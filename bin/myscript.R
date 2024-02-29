@@ -1,5 +1,7 @@
+#!/usr/bin/env Rscript
+
 library(tidyverse)
 
-source("functions.R")
+source("bin/functions.R")
 
 plot_dataset(mtcars)
