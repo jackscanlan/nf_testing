@@ -4,7 +4,7 @@ setwd(dirname(getwd()))
 
 dir.name <- getwd()
 
-printf(dir.name)
+print(dir.name)
 
 library(tidyverse)
 
