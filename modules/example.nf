@@ -4,6 +4,10 @@ process EXAMPLE {
 
     script: 
     """
+    #!/usr/bin/R
+
+    source("${projectDir}/bin/functions.R")
+
     myscript.R
     """
 

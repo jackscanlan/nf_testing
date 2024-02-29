@@ -11,4 +11,4 @@ Q: Can I `source()` R scripts from `bin` in R scripts that are found in `bin`?
     module load Nextflow/23.10.1
     module load R/4.2.0-foss-2021b
 
-    
+for some reason need to be in script dir to run script properly 
