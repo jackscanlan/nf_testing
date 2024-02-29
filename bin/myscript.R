@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 library(tidyverse)
 
 source("functions.R")
