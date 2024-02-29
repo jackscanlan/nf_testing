@@ -2,6 +2,10 @@
 
 setwd(dirname(getwd()))
 
+dir.name <- getwd()
+
+printf(dir.name)
+
 library(tidyverse)
 
 source("functions.R")
