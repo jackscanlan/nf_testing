@@ -3,5 +3,5 @@ plot_dataset <- function(dataset) {
     geom_point() +
     facet_grid(.~vs)
 
-    ggsave("cars.png", plot = car_plot)
+    ggsave("cars.pdf", plot = car_plot)
 }
