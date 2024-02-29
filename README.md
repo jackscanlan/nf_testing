@@ -8,3 +8,7 @@ Ideally, I want to create modules (eg. `modules/example.nf`) that I can call in 
 
 Q: Can I `source()` R scripts from `bin` in R scripts that are found in `bin`?
 
+    module load Nextflow/23.10.1
+    module load R/4.2.0-foss-2021b
+
+    
