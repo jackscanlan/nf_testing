@@ -4,8 +4,8 @@ process EXAMPLE {
 
     script: 
     """
-    #!/usr/bin/R
-
+    #!/usr/bin/env Rscript
+    
     source("${projectDir}/bin/functions.R")
 
     myscript.R
