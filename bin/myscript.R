@@ -1,8 +1,5 @@
 #!/usr/bin/R
 
-setwd(dirname(getwd()))
-
-print(getwd())
 
 library(tidyverse)
 
