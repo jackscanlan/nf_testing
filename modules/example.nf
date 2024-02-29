@@ -4,11 +4,11 @@ process EXAMPLE {
 
     script: 
     """
-    #!/usr/bin/env R
+    #!/usr/bin/env R 
 
     source("${projectDir}/bin/functions.R")
 
-    myscript.R
+    source("${projectDir}/bin/myscript.R")
     """
 
 }
