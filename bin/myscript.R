@@ -6,6 +6,6 @@ print(getwd())
 
 library(tidyverse)
 
-source("./bin/functions.R")
+# source("./bin/functions.R")
 
 plot_dataset(mtcars)
