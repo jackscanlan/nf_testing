@@ -2,6 +2,6 @@
 
 library(tidyverse)
 
-source("bin/functions.R")
+source("functions.R")
 
 plot_dataset(mtcars)
