@@ -2,9 +2,7 @@
 
 setwd(dirname(getwd()))
 
-dir.name <- getwd()
-
-print(dir.name)
+print(getwd())
 
 library(tidyverse)
 
