@@ -1,4 +1,4 @@
-include { EXAMPLE } from 'modules/example'
+include { EXAMPLE } from './modules/example'
 
 workflow {
 
