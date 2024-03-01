@@ -17,4 +17,5 @@ workflow {
 
     MODULE3 ( MODULE1.out.plot, num_ch )
 
+    MODULE3.out | view
 }
