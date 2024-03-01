@@ -17,5 +17,7 @@ mutate_dataset <- function(dataset) {
     mtcars_new <-
         dataset %>% 
         dplyr::mutate(mpg_div_cyl = mpg / cyl)
+
+    return(mtcars_new)
     }
 }
