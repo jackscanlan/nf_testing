@@ -1,4 +1,4 @@
-process EXAMPLE {
+process MODULE1 {
     output:
     path("*.pdf"), emit: "plot"
 
@@ -8,9 +8,9 @@ process EXAMPLE {
     """
     #!/usr/bin/env Rscript
 
-    source("${projectDir}/bin/functions.R")
+    source("${projectDir}/bin/functions.R") # source functions
 
-    source("${projectDir}/bin/myscript.R")
+    source("${projectDir}/bin/myscript.R") # run module script
     """
 
 }

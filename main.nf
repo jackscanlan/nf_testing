@@ -1,9 +1,11 @@
-include { EXAMPLE } from './modules/example'
+include { MODULE1 } from './modules/module1'
+include { MODULE2 } from './modules/module2'
+
 
 workflow {
 
-    EXAMPLE()
+    MODULE1()
 
-    EXAMPLE.out.plot | view { "found a pdf: $it" }
+    MODULE1.out.plot | view { "found a pdf: $it" }
 
 }
