@@ -10,7 +10,7 @@ process MODULE1 {
 
     source("${projectDir}/bin/functions.R") # source functions
 
-    source("${projectDir}/bin/myscript.R") # run module script
+    source("${projectDir}/bin/module1.R") # run module script
     """
 
 }
