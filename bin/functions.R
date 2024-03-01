@@ -1,7 +1,7 @@
 plot_dataset <- function(dataset, x, y) {
     
     if (!require(tidyverse)) {stop("'tidyverse' not installed!")} else {
-        car_plot <- ggplot(dataset, aes(x = x, y = y, colour = disp)) +
+        car_plot <- ggplot(dataset, aes_string(x = x, y = y, colour = disp)) +
         geom_point() +
         facet_grid(.~vs) +
         ggtitle("Facet by 'vs'")
