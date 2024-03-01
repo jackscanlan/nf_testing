@@ -17,5 +17,5 @@ workflow {
 
     MODULE3 ( MODULE2.out.plot, num_ch )
 
-    MODULE3.out | view { "renamed pdf: $it" }
+    MODULE3.out.plot | view { "renamed pdf: $it" }
 }
