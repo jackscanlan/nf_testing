@@ -3,6 +3,6 @@ library(tidyverse)
 
 plot_dataset(dataset = mtcars, x = "mpg", y = "cyl")
 
-mutate_dataset(mtcars)
+mutate_dataset(dataset = mtcars)
 
-plot_dataset(mtcars_new, mpg, cyl)
+# plot_dataset(mtcars_new, mpg, cyl)
