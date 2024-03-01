@@ -15,7 +15,7 @@ workflow {
 
     def num_ch = Channel.of(1,2,3)
 
-    MODULE3 ( MODULE1.out.plot, num_ch )
+    MODULE3 ( MODULE2.out.plot, num_ch )
 
     MODULE3.out | view { "renamed pdf: $it" }
 }
