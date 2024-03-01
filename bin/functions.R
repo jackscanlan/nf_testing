@@ -16,6 +16,6 @@ mutate_dataset <- function(dataset) {
     if (!require(tidyverse)) {stop("'tidyverse' not installed!")} else {
     mtcars_new <-
         dataset %>% 
-        dplyr::mutate(mpg_div_cyl = mpg /cyl)
+        dplyr::mutate(mpg_div_cyl = mpg / cyl)
     }
 }

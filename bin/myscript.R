@@ -5,4 +5,4 @@ plot_dataset(mtcars, mpg, cyl)
 
 mutate_dataset(mtcars)
 
-plot_dataset(mtcars_new, mpg_div_cyl, cyl)
+plot_dataset(mtcars_new, mpg, cyl)
