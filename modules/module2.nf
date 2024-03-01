@@ -6,7 +6,7 @@ process MODULE2 {
     output:
     path("new.pdf"), emit: "plot"
 
-    publishDir "${projectDir}/output"
+    publishDir "${projectDir}/output/module2"
 
     script: 
     """
