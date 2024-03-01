@@ -2,8 +2,8 @@
 library(tidyverse)
 library(rlang)
 
-plot_dataset(dataset = mtcars, x = mpg, y = cyl)
+# plot_dataset(dataset = mtcars, x = mpg, y = cyl)
 
-#mutate_dataset(dataset = mtcars)
+mutate_dataset(dataset = mtcars)
 
-#plot_dataset(dataset_mutated, "mpg", "cyl")
+plot_dataset(dataset_mutated, mpg_div_cyl, cyl)
