@@ -1,6 +1,6 @@
 process EXAMPLE {
     output:
-    path("*.png"), emit: "plot"
+    path("*.pdf"), emit: "plot"
 
     script: 
     """
