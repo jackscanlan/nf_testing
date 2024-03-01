@@ -4,6 +4,6 @@ workflow {
 
     EXAMPLE()
 
-    EXAMPLE.out.plot | view { "found a png: $it" }
+    EXAMPLE.out.plot | view { "found a pdf: $it" }
 
 }
