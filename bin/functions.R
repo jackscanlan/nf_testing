@@ -11,11 +11,11 @@ plot_dataset <- function(dataset, x, y) {
 
 }
 
-# mutate_dataset <- function(dataset) {
+mutate_dataset <- function(dataset) {
     
-#     if (!require(tidyverse)) {stop("'tidyverse' not installed!")} else {
-#     mtcars_new <-
-#         dataset %>% 
-#         dplyr::mutate(mpg_div_cyl = mpg / cyl)
-#     }
-# }
+    if (!require(tidyverse)) {stop("'tidyverse' not installed!")} else {
+    mtcars_new <-
+        dataset %>% 
+        dplyr::mutate(mpg_div_cyl = mpg / cyl)
+    }
+}
