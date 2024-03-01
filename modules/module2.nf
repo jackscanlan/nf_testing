@@ -1,19 +1,16 @@
 process MODULE2 {
     
     input: 
-    
+    path pdf
+
     output:
-    
+    path("new.pdf"), emit: "plot"
 
     publishDir "${projectDir}/output"
 
     script: 
     """
-    #!/usr/bin/env Rscript
-
-    source("${projectDir}/bin/functions.R") # source functions
-
-    source("${projectDir}/bin/module1.R") # run module script
+    mv $pdf new.pdf
     """
 
 }
