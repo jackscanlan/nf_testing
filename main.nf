@@ -11,11 +11,11 @@ workflow {
 
     MODULE2 ( MODULE1.out.plot ) 
 
-    MODULE2.out.plot | view { "found new pdf: $it"}
+    MODULE2.out.plot | view { "found new pdf: $it" }
 
     def num_ch = Channel.of(1,2,3)
 
     MODULE3 ( MODULE1.out.plot, num_ch )
 
-    MODULE3.out | view
+    MODULE3.out | view { "renamed pdf: $it" }
 }
