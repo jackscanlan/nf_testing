@@ -9,6 +9,7 @@ process MODULE1 {
     #!/usr/bin/env Rscript
 
     source("${projectDir}/bin/functions.R") # source functions
+    source("${projectDir}/bin/themes.R") # source themes
 
     source("${projectDir}/bin/module1.R") # run module script
     """
