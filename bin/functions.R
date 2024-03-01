@@ -14,11 +14,11 @@ plot_dataset <- function(dataset, x, y) {
 mutate_dataset <- function(dataset) {
     
     if (!require(tidyverse)) {stop("'tidyverse' not installed!")} else {
-    mtcars_new <-
+    dataset_mutated <-
         dataset %>% 
         dplyr::mutate(mpg_div_cyl = mpg / cyl)
 
-    mtcars_new <<- mtcars_new
+    dataset_mutated <<- dataset_mutated
 
     }
 }
