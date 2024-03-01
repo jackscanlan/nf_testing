@@ -1,7 +1,8 @@
 #!/usr/bin/R
 library(tidyverse)
+library(rlang)
 
-plot_dataset(dataset = mtcars, x = "mpg", y = "cyl")
+plot_dataset(dataset = mtcars, x = mpg, y = cyl)
 
 #mutate_dataset(dataset = mtcars)
 
